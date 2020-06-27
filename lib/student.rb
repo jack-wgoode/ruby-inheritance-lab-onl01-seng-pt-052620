@@ -5,11 +5,11 @@ class Student < User
   end
 
   def learn(knowledge_string) 
-    @@knowledge << knowledge_string
+    self.knowledge << knowledge_string
   end
    
   def knowledge 
-    @@knowledge 
+     self.knowledge 
   end
 
 end
